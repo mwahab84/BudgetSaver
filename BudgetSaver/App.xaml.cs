@@ -13,9 +13,7 @@ namespace BudgetSaver
 
             AppCenter.Start("android=e37f922b-1460-41e1-9bcd-fd4c622ab8a6;" +
                             "ios=81c4f5d6-0f57-4129-91d0-8151db0a38c9",
-                  typeof(Analytics), typeof(Crashes));
-
-            AppCenter.Start("android=e37f922b-1460-41e1-9bcd-fd4c622ab8a6",typeof(Push));
+                            typeof(Analytics), typeof(Crashes),typeof(Push));
 
             MainPage = new NavigationPage(new ItemsView());
 
