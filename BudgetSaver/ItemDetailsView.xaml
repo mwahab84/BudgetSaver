@@ -50,11 +50,11 @@
                     </StackLayout>
                     <StackLayout HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
                         <Label Text="Tags:" FontAttributes="Bold" FontSize="22" />
-                        <Label Text="Frozens, Fresh, Home Appliances, etc..." FontSize="18" />
+                        <Label Text="This feature will come soon! Stay tuned!" FontSize="18" />
                     </StackLayout>
                     <StackLayout HorizontalOptions="FillAndExpand">
-                        <Label Text="Receipes:" FontAttributes="Bold" FontSize="22" />
-                        <Label Text="Will mention some receipes here as suggestions for the followers" FontSize="18" />
+                        <Label Text="Recipes:" FontAttributes="Bold" FontSize="22" />
+                        <Label Text="This feature will come soon! Stay tuned!" FontSize="18" />
                     </StackLayout>
                 </StackLayout>
             </RelativeLayout>
