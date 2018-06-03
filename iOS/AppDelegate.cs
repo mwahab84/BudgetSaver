@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
+using Google.MobileAds;
 using UIKit;
 //using Microsoft.AppCenter;
 //using Microsoft.AppCenter.Analytics;
@@ -24,6 +24,8 @@ namespace BudgetSaver.iOS
 			Xamarin.Calabash.Start();
 #endif
             //AppCenter.Start("81c4f5d6-0f57-4129-91d0-8151db0a38c9", typeof(Analytics), typeof(Crashes));
+
+            MobileAds.Configure("ca-app-pub-8844105249330187~9258943587");
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

@@ -9,6 +9,7 @@ using Android.Widget;
 using Android.OS;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Push;
+using Android.Gms.Ads;
 //using Microsoft.AppCenter.Analytics;
 //using Microsoft.AppCenter.Crashes;
 
@@ -30,7 +31,10 @@ namespace BudgetSaver.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             //AppCenter.Start("e37f922b-1460-41e1-9bcd-fd4c622ab8a6", typeof(Analytics), typeof(Crashes));
+
+            MobileAds.Initialize(ApplicationContext, "ca-app-pub-8844105249330187~4536497303");
             Push.SetSenderId("586898794466");
+
             LoadApplication(new App());
         }
 

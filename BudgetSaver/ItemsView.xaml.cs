@@ -20,14 +20,17 @@ namespace BudgetSaver
         private int itemsCount,tempCount = 0;
         HttpClient client;
         ObservableCollection<Item> itemsList = new ObservableCollection<Item>();
+        AbsoluteLayout prod;
         //ActivityIndicator serviceLoadingInd;
 
         public ItemsView()
         {
             InitializeComponent();
+
         }
 
-        protected override void OnAppearing()
+
+		protected override void OnAppearing()
         {
             // Set itemsCount and tempCount = 0
             // Retrieve itemsList from the web service
@@ -42,7 +45,8 @@ namespace BudgetSaver
             // retrieved updated itemsList
             if (itemsCount != tempCount)
                 return;
-            GetItems();           
+            GetItems();
+
 		}
 
 
@@ -91,6 +95,7 @@ namespace BudgetSaver
                         itemsListView.IsVisible = true;
                     });
                 });
+
 
             }
             catch (Exception e)

@@ -20,7 +20,7 @@ namespace BudgetSaver.Models
             get;
             set;
         }
-        public short Amount
+        public double Amount
         {
             get;
             set;
