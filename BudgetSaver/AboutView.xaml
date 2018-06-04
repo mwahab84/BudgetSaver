@@ -40,7 +40,7 @@
                     <StackLayout Orientation="Horizontal">
                         <!--<Label Text="Whats'App: " HorizontalOptions="Start"/>-->
                     <Image Source="whatsapp" WidthRequest="28" HeightRequest="28" HorizontalOptions="Start" VerticalOptions="Center" Margin="0,0,10,0"/>
-                        <Label Text="+974 6672 1657" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                        <Label Text="+974 3312 3206" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
                     <!--<StackLayout Orientation="Horizontal" HorizontalOptions="Center"  Padding="10">
