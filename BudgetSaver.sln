@@ -75,5 +75,6 @@ Global
 		$0.VersionControlPolicy = $2
 		$0.StandardHeader = $3
 		version = 1.1
+		description = @The initial version of Ezay Nwafar of Budget Saver. It includes basic search for home staples and details about each product.\nGoogle Ads are incorpoated in this version
 	EndGlobalSection
 EndGlobal

@@ -8,7 +8,7 @@
 	<!-- Required, makes sure notifications are delivered on time. -->
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	<application android:label="Ezay Nwafar" android:icon="@drawable/icon" android:theme="@style/MyTheme">
+	<application android:label="Ezay Nwafar" android:icon="@drawable/icon" android:theme="@style/MyTheme" android:debuggable="false">
 		<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />
 	</application>
 </manifest>
